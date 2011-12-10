@@ -7,11 +7,11 @@ gem 'rails', '3.1.3'
 
 #gem 'sqlite3'
 group :development, :test do
-gem 'sqlite3', '1.3.3'
+	gem 'sqlite3', '1.3.4'
 end
 
 group :production, :staging do
-  gem "pg"
+  	gem 'pg'
 end
 
 
@@ -37,7 +37,4 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-group :test do
-  # Pretty printed test output
-  gem 'turn', '0.8.2', :require => false
-end
+
